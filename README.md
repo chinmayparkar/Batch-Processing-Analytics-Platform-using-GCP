@@ -44,38 +44,40 @@
   
 6. Run these next commands for downloading and installing Jupyter Notebook and other packages:
   
-    wget http://repo.continuum.io/archive/Anaconda3-4.0.0-Linux-x86_64.sh
-    bash Anaconda3-4.0.0-Linux-x86_64.sh
+        wget http://repo.continuum.io/archive/Anaconda3-4.0.0-Linux-x86_64.sh
+        bash Anaconda3-4.0.0-Linux-x86_64.sh
   
 7. Follow the on-screen instructions, The defaults usually work fine, but answer yes to the last question about prepending the install location to PATH: /home/user/.bashrc
 
 8. To make use of Anaconda right away, source your bashrc by running the foloowing command:
 
-    source ~/.bashrc
+        source ~/.bashrc
    
 9. Install any other packages that you want:
 
-    pip install tensorflow
-    pip install keras
+        pip install tensorflow
+        pip install keras
+        pip install google-cloud-storage
+        pip install google-cloud-bigquery
     
 10. Setup the VM server by genarating Jupyter configuration file:
 
-    jupyter notebook --generate-config
+        jupyter notebook --generate-config
     
 11. Add the following code in the config file using vi,nano or your favourite editor >> run: vi ~/.jupyter/jupyter_notebook_config.py
 
-    c = get_config()
-    c.NotebookApp.ip = '*'
-    c.NotebookApp.open_browser = False
-    c.NotebookApp.port = <Port Number which you opened in Firewall settings>
+        c = get_config()
+        c.NotebookApp.ip = '*'
+        c.NotebookApp.open_browser = False
+        c.NotebookApp.port = <Port Number which you opened in Firewall settings>
     
 12. To run the jupyter notebook, just type the following command in the ssh window you are in :
 
-    jupyter-notebook --no-browser --port=<PORT-NUMBER>
+        jupyter-notebook --no-browser --port=<PORT-NUMBER>
     
 13. You should be able to access jupyter notebook using your browser from following URL:
 
-    http://<External Static IP Address>:<Port Number>
+        http://<External Static IP Address>:<Port Number>
  
  
 # 3. Creating a Cloud Storage Bucket for storing pre-processed and cleaned data.
