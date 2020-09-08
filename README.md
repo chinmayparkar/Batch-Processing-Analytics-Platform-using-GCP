@@ -17,11 +17,15 @@
 
 # 1. Creating a Compute Engine VM instance on GCP Cloud Console
 
->> Login to your GCP Cloud console >> Create a project and name it as per your choice >> https://prnt.sc/udvlf2
->> From the Navigation menu go to >> Compute Engine >> VM instances >> Create a new VM instance.
->> Give any instance name >> Select the Region >> Select atleast 4 core CPU and 16 GB memory for faster computations on Data. >> https://prnt.sc/udvi39
->> Select the Disk space and Operating system as per your requirement>> Allow HTTP/HTTPS traffic and Create instance >>  https://prnt.sc/udviw8
->> You will see your VM instance up and running >> https://prnt.sc/udvkg4
+1. Login to your GCP Cloud console >> Create a project and name it as per your choice >> https://prnt.sc/udvlf2
+
+2. From the Navigation menu go to >> Compute Engine >> VM instances >> Create a new VM instance.
+
+3. Give any instance name >> Select the Region >> Select atleast 4 core CPU and 16 GB memory for faster computations on Data. >> https://prnt.sc/udvi39
+
+4. Select the Disk space and Operating system as per your requirement>> Allow HTTP/HTTPS traffic and Create instance >>  https://prnt.sc/udviw8
+
+5. You will see your VM instance up and running >> https://prnt.sc/udvkg4
 
 
 # 2. Installing Jupyter Notebook for Data processing
