@@ -24,7 +24,7 @@
 >> You will see your VM instance up and running >> https://prnt.sc/udvkg4
 
 
-# 2 Installing Jupyter Notebook for Data processing
+# 2. Installing Jupyter Notebook for Data processing
 
 >> Opening port for Jupyter Notebook >> Navigation Menu >> VPC Network >> Firewall >> Create Firewall
 >> Select any name and use these settings >> https://prnt.sc/udw0je >> I have selected port 5000 but you can use any other available port.
@@ -66,13 +66,13 @@
     http://<External Static IP Address>:<Port Number>
  
  
-# 3 Creating a Cloud Storage Bucket for storing pre-processed and cleaned data.
+# 3. Creating a Cloud Storage Bucket for storing pre-processed and cleaned data.
 
 >> GCP console >> Navigation Menu >> Storage >> Create Bucket >> https://prnt.sc/udw5ea
 >> Give your Bucket name >> Select region >> Rest all you can leave default or select as per your preferences >> https://prnt.sc/udw6pd
 
 
-# 4 Create an IAM service account for your python account to perform operations on Cloud Storage Bucket
+# 4. Create an IAM service account for your python account to perform operations on Cloud Storage Bucket
 
 Identity Access Management (IAM) service account is needed to grant your python program the permission to access and perform operations on GCP.
 
@@ -81,14 +81,14 @@ Identity Access Management (IAM) service account is needed to grant your python 
 >> The key will be downloaded on your PC and you can use that in your python code by following the documentaion here >> https://cloud.google.com/docs/authentication/production
 
 
-# 5 Creating Database and Tables in BigQuery for storing processed data.
+# 5. Creating Database and Tables in BigQuery for storing processed data.
 
 >> Navigation Menu >> BigQuery >> Add Data >> Pin a project >> Select your project >> https://prnt.sc/udwhts
 >> Your project name will appear in bottom left corner >> Click on project name >> Create Dataset >> https://prnt.sc/udwiwv
 >> Click on Dataset name >> Create Table Tables >> https://prnt.sc/udwjbh
 >> You can add the table fields using +Add field option or you can Edit as Text and add your JSON schema >> https://prnt.sc/udwjva
 
-# 6 Using Dataflow runner for Extract, Transform and Load into Google Bigquery.
+# 6. Using Dataflow runner for Extract, Transform and Load into Google Bigquery.
 
 >> Upload your User defined function Javascript to Cloud bucket which transforms the data.
 >> Upload the JSOM schema files or your respective tables to Cloud bucket.
@@ -99,7 +99,7 @@ Identity Access Management (IAM) service account is needed to grant your python 
 >> If the job succeeds you will see all the Graph steps in Green and Job Status: Succeded >> https://prnt.sc/udwpll
 >> To verify you can run some SQL queries on BigQuery interface and you will see the corresponding result>> https://prnt.sc/udwqzi
 
-# 7 Visualization using Google DataStudio or ModeAnalytics.
+# 7. Visualization using Google DataStudio or ModeAnalytics.
 
 >> On the BigQuery page itself click on Explore Data and it will take you to the Google DataStudio page >> https://prnt.sc/udwuh4
 >> Make visualizations on your selected query >> https://prnt.sc/udwu65
