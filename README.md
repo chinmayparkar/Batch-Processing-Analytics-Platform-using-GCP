@@ -4,7 +4,7 @@
 1. Google Cloud Platform account >> https://cloud.google.com/gcp/
 2. Select any data (preferably > 1 GB) from Kaggle or any other Data repositories >> https://www.kaggle.com/datasets
 
-# Data USed: https://www.kaggle.com/donorschoose/io
+# Data Used: https://www.kaggle.com/donorschoose/io
 
 # Process Overview
 1. Creating a Compute Engine VM instance on GCP Cloud Console
