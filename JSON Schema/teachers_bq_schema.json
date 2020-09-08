@@ -1,0 +1,16 @@
+{
+    "BigQuery Schema": [
+      {
+        "name": "Teacher_ID",
+        "type": "STRING"
+      },
+      {
+        "name": "Teacher_Prefix",
+        "type": "STRING"
+      },
+      {
+        "name": "Teacher_First_Project_Posted_Date",
+        "type": "DATE"
+      }
+    ]
+  }

@@ -1,0 +1,32 @@
+{
+    "BigQuery Schema": [
+      {
+        "name": "Project_ID",
+        "type": "STRING"
+      },
+      {
+        "name": "Donation_ID",
+        "type": "STRING"
+      },
+      {
+        "name": "Donor_ID",
+        "type": "STRING"
+      },
+      {
+        "name": "Donation_Included_Optional_Donation",
+        "type": "STRING"
+      },
+      {
+        "name": "Donation_Amount",
+        "type": "FLOAT"
+      },
+      {
+        "name": "Donor_Cart_Sequence",
+        "type": "FLOAT"
+      },
+      {
+        "name": "Donation_Received_Date",
+        "type": "DATETIME"
+      }
+    ]
+  }

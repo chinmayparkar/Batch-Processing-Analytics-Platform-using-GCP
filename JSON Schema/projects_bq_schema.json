@@ -1,0 +1,68 @@
+{
+    "BigQuery Schema": [
+      {
+        "name": "Project_ID",
+        "type": "STRING"
+      },
+      {
+        "name": "School_ID",
+        "type": "STRING"
+      },
+      {
+        "name": "Teacher_ID",
+        "type": "STRING"
+      },
+      {
+        "name": "Project_Type",
+        "type": "STRING"
+      },
+      {
+        "name": "Project_Title",
+        "type": "STRING"
+      },
+      {
+        "name": "Project_Essay",
+        "type": "STRING"
+      },
+      {
+        "name": "Project_Short_Description",
+        "type": "STRING"
+      },
+      {
+        "name": "Project_Need_Statement",
+        "type": "STRING"
+      },
+      {
+        "name": "Project_Subject_Category_Tree",
+        "type": "STRING"
+      },
+      {
+        "name": "Project_Subject_Subcategory_Tree",
+        "type": "STRING"
+      },
+      {
+        "name": "Project_Grade_Level_Category",
+        "type": "STRING"
+      },
+      {
+        "name": "Project_Resource_Category",
+        "type": "STRING"
+      },
+      {
+        "name": "Project_Cost",
+        "type": "FLOAT"
+      },
+      {
+        "name": "Project_Posted_Date",
+        "type": "DATE"
+      },
+      {
+        "name": "Project_Expiration_Date",
+        "type": "DATE"
+      },
+      {
+        "name": "Project_Current_Status",
+        "type": "STRING"
+      }
+    ]
+  }

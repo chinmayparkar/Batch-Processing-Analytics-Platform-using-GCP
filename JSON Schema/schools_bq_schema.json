@@ -1,0 +1,40 @@
+{
+    "BigQuery Schema": [
+        {
+          "name": "School_ID",
+          "type": "STRING"
+        },
+        {
+          "name": "School_Name",
+          "type": "STRING"
+        },
+        {
+          "name": "School_Metro_Type",
+          "type": "STRING"
+        },
+        {
+          "name": "School_Percentage_Free_Lunch",
+          "type": "FLOAT"
+        },
+        {
+          "name": "School_State",
+          "type": "STRING"
+        },
+        {
+          "name": "School_Zip",
+          "type": "INTEGER"
+        },
+        {
+          "name": "School_City",
+          "type": "STRING"
+        },
+        {
+          "name": "School_County",
+          "type": "STRING"
+        },
+        {
+          "name": "School_District",
+          "type": "STRING"
+        }
+      ]
+  }

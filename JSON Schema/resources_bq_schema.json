@@ -1,0 +1,20 @@
+{
+    "BigQuery Schema": [
+      {
+        "name": "Project_ID",
+        "type": "STRING"
+      },
+      {
+        "name": "Resource_Item_Name",
+        "type": "STRING"
+      },
+      {
+        "name": "Resource_Quantity",
+        "type": "FLOAT"
+      },
+      {
+        "name": "Resource_Unit_Price",
+        "type": "FLOAT"
+      }
+    ]
+  }

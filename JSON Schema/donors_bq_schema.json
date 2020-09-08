@@ -1,0 +1,24 @@
+{
+  "BigQuery Schema": [
+    {
+      "name": "Donor_ID",
+      "type": "STRING"
+    },
+    {
+      "name": "Donor_City",
+      "type": "STRING"
+    },
+    {
+      "name": "Donor_State",
+      "type": "STRING"
+    },
+    {
+      "name": "Donor_Is_Teacher",
+      "type": "STRING"
+    },
+    {
+      "name": "Donor_Zip",
+      "type": "INTEGER"
+    }
+  ]
+}
