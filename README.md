@@ -44,8 +44,8 @@
   
 6. Run these next commands for downloading and installing Jupyter Notebook and other packages:
   
-        wget http://repo.continuum.io/archive/Anaconda3-4.0.0-Linux-x86_64.sh
-        bash Anaconda3-4.0.0-Linux-x86_64.sh
+        wget http://repo.continuum.io/archive/Anaconda3-2020.07-Linux-x86_64.sh
+        bash Anaconda3-2020.07-Linux-x86_64.sh
   
 7. Follow the on-screen instructions, The defaults usually work fine, but answer yes to the last question about prepending the install location to PATH: /home/user/.bashrc
 
