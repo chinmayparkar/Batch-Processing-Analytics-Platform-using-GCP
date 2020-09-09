@@ -64,7 +64,9 @@
 
         jupyter notebook --generate-config
     
-11. Add the following code in the config file using vi,nano or your favourite editor >> run: vi ~/.jupyter/jupyter_notebook_config.py
+11. Add the following code in the config file using vi,nano or your favourite editor >> run: 
+
+        vi ~/.jupyter/jupyter_notebook_config.py
 
         c = get_config()
         c.NotebookApp.ip = '*'
